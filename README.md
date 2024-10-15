@@ -1,8 +1,72 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# ChatGPT React Native App
+
+## Project Description
+
+This project is a mobile application built with React Native that integrates the OpenAI GPT-3.5 API to generate text responses. It also features text-to-speech functionality using react-native-tts and styling with NativeWind.
+
+## Video gif
+
+![](./assets/images/screenrecord.gif)
+
+## Welcome Screen
+
+![](./assets/images/welcomeScreen.png)
+
+## Home Screen
+
+![](./assets/images/homeScreen.png)
+
+## Featured Component
+
+![](./assets/images/featured.png)
+
+## Features
+
+- Real-time AI conversation using OpenAI's GPT API.
+- User-friendly interface built with React Native.
+- Speech-to-text support for hands-free interaction (using react-native-voice).
+- Image generation feature using DALL-E integration.
+- Custom error handling and state management for a seamless experience.
+
+## Technologies and Lİbraries Used
+
+- React Native: Framework for building cross-platform mobile apps.
+- OpenAI GPT-3 API: Provides the AI chatbot experience.
+- Axios: For making API requests.
+- React Native Voice: Used for speech-to-text functionality.
+- DALL-E: AI image generation (optional feature).
+- Hermes: JavaScript engine for React Native (optional).
+- Metro: Development server for React Native.
+- NativeWind: For styling the application.
+
+## Requirements
+
+To run this project locally, you will need:
+
+- Node.js
+- React Native CLI
+- OpenAI API Key
+
+## Installation
+
+- Clone the project to your local machine:
+  git clone https://github.com/ozerbaykal/React_Native_IA.git
+
+- Navigate to the project directory:
+
+```
+cd React_Native_IA
+```
+
+- Add your OpenAI API key in the constants file:
+
+```
+const apiKey = 'YOUR_API_KEY';
+```
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -59,21 +123,23 @@ Now that you have successfully run the app, let's modify it.
 
 You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+### Use an Android or iOS emulator.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+- Use an Android or iOS emulator.
+- Alternatively, scan the QR code with your physical device using the Expo Go app.
 
-# Troubleshooting
+<h2>Contributing</h2>
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Contributions are welcome! Please open an issue first to discuss what you would like to change.
 
-# Learn More
+- 1.Fork the project
+- 2.Create your feature branch (git checkout -b feature/NewFeature)
+- 3.Commit your changes (git commit -m 'Add new feature')
+- 4.Push to the branch (git push origin feature/NewFeature)
+- 5.Open a Pull Request
 
-To learn more about React Native, take a look at the following resources:
+<h2>Contact</h2>
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Özer BAYKAL mail : baykalozer87@gmail.com
+
+Project Link: https://github.com/ozerbaykal/React_Native_IA

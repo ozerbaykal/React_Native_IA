@@ -1,3 +1,7 @@
+
+export const chatKey = " APİ KEY " //you have to need api key
+//please visit the https://platform.openai.com/docs/api-reference/introduction
+
 export const dummyMessages = [
     {
         role: "user",
